@@ -3,9 +3,9 @@ import Login from "./components/Auth/Login";
 import EmployeDashboard from "./components/Dashboard/EmployeDashboard";
 import AdminDashboard from "./components/Dashboard/AdminDashboard";
 import ProtectedRoute from "./components/ProtectedRoute";
+import Register from "./components/Auth/Register";
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import Register from "./components/Auth/register";
 import { useEffect, useState } from "react";
 
 export default function App() {
